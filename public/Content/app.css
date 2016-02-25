@@ -1,21 +1,16 @@
 /* custom style sheet */
 #bg{
-    background: black url('../images/BBSplash.jpg') no-repeat center top scroll; 
+    background: black url('../images/BBSplash.jpg') no-repeat center top; 
     background-size: 100% cover;
-    height: 900px;
-    width: 900px;
 }
 #bb-logo{
-    margin-top: 300px;
-    margin-left: 300px;
+    padding-top: 350px;
+    padding-left: 410px;
+    padding-bottom: 80px;
 }
 body{
     background-color: black;
     color: green; 
-}
-#people-home{
-    margin-left: 420px;
-    text-transform: uppercase;
 }
 #walter{
     width: 33%;

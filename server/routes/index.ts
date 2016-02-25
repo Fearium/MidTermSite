@@ -5,11 +5,11 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
-/* GET home page. */
+/* GET people page. */
 router.get('/people', function(req, res, next) {
   res.render('people', { title: 'People' });
 });
-/* GET home page. */
+/* GET contact page. */
 router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact' });
 });
