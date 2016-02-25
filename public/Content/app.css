@@ -10,10 +10,30 @@
     margin-left: 300px;
 }
 body{
-    background-color: black;   
+    background-color: black;
+    color: green; 
 }
 #people-home{
     margin-left: 420px;
-    color: white;
     text-transform: uppercase;
+}
+#walter{
+    width: 33%;
+}
+#jesse{
+    width: 33%;
+}
+#hank{
+    width: 33%;
+}
+#walter h2, #jesse h2, #hank h2{
+    color: white;
+    text-align: center;
+}
+#walter p, #jesse p, #hank p{
+    color: green;
+    text-align: center;
+}
+a, h1 {
+    color: white;
 }

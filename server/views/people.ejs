@@ -1,11 +1,34 @@
 <% include partials/header.ejs %>
 <% include partials/navbar.ejs %>
         <main class="container">
-            <h1>
-                <img src="/images/BBLogo.png" class="img-responsive" id="bb-logo" alt="BB Logo">
-            </h1>
-            <h2>
-                <a href="/people" id="people-home">People</a>
-            </h2>
+            <div class="people-cards">
+                <div class="col-md-1" id="walter">
+                    <img src="/images/ww.jpg" class="img-responsive" alt="Walter">
+                    <h2>
+                        Walter White
+                    </h2>
+                    <p>
+                        Chemistry teacher Walter White learns he has cancer and becomes a meth manufacturer.
+                    </p>
+                </div>
+                <div class="col-md-2" id="jesse">
+                    <img src="/images/JP.jpg" class="img-responsive" alt="Jesse">
+                    <h2>
+                        Jesse Pinkman
+                    </h2>
+                    <p>
+                        Jesse Pinkman is a former student of Walt's and his meth-making partner. 
+                    </p>
+                </div>
+                <div class="col-md-3" id="hank">
+                    <img src="/images/HS.jpg" class="img-responsive" alt="Hank">
+                    <h2>
+                        Hank Schrader
+                    </h2>
+                    <p>
+                        Hank is Walter's macho brother-in-law. He is also a DEA agent.
+                    </p>
+                </div>
+            </div>
         </main>
 <% include partials/footer.ejs %>
