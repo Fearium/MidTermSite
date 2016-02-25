@@ -6,16 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Home' });
 });
 /* GET home page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
-});
-/* GET home page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
-});
-/* GET home page. */
-router.get('/about', function(req, res, next) {
-  res.render('index', { title: 'About' });
+router.get('/people', function(req, res, next) {
+  res.render('people', { title: 'People' });
 });
 /* GET home page. */
 router.get('/contact', function(req, res, next) {

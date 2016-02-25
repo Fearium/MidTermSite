@@ -1,1 +1,19 @@
 /* custom style sheet */
+#bg{
+    background: black url('../images/BBSplash.jpg') no-repeat center top scroll; 
+    background-size: 100% cover;
+    height: 900px;
+    width: 900px;
+}
+#bb-logo{
+    margin-top: 300px;
+    margin-left: 300px;
+}
+body{
+    background-color: black;   
+}
+#people-home{
+    margin-left: 420px;
+    color: white;
+    text-transform: uppercase;
+}
